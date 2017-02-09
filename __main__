@@ -1,9 +1,0 @@
-__author__ = "ryang"
-
-import os
-
-from .server import main
-
-if __name__ == '__main__':
-    debug = os.environ.get("EZBBG_SERVER_DEBUG", False)
-    main(debug)
